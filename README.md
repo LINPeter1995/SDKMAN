@@ -40,13 +40,17 @@ curl -s "https://get.sdkman.io" | bash
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-#這個指令會列出目前安裝的 Linux 環境
+# 這個指令會列出目前安裝的 Linux 環境
 
 wsl --list --verbose
 
-#啟動指定的 Linux 發行版
+# 啟動指定的 Linux 發行版
 
 wsl -d Ubuntu
+
+# 把 Ubuntu 設成預設
+
+wsl --set-default Ubuntu
 
 # 安裝最新版本的 Java（可自選版本）
 
