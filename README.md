@@ -9,3 +9,5 @@ sdk install java
 
 sdk install springboot
 
+wsl
+
