@@ -6,15 +6,15 @@ wsl --update          # 更新 WSL 到最新版本
 
 wsl -d Ubuntu         # 啟動 Ubuntu（進入 Linux 系統）
 
-# 建立新帳號 ibame（會提示輸入密碼兩次）
 
-# 密碼會隱藏，輸入完按 Enter 即可
+
+
 
 Create a default Unix user account: ibame
 
-New password: 123
+New password: 123                # 建立新帳號 ibame（會提示輸入密碼兩次）
 
-Retype new password: 123
+Retype new password: 123           # 密碼會隱藏，輸入完按 Enter 即可
 
 sudo apt update                         # 更新套件清單
 
