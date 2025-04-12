@@ -1,61 +1,42 @@
-# SDKMAN
+# 1. 安裝 WSL（Windows 子系統 Linux）
+wsl --install
 
-# 安裝 WSL（Windows 子系統 Linux）
+# 2. 更新 WSL 到最新版本
+wsl --update
 
-wsl --install 
-
-# 更新 WSL 到最新版本
-
-wsl --update 
-
-# 啟動 Ubuntu（進入 Linux 系統）
-
-wsl -d Ubuntu 
-
-# 建立新帳號 ibame（會提示輸入密碼兩次）
-
-Create a default Unix user account: ibame 
-
-# 密碼會隱藏
-
-New password: 123 
-
-# 輸入完按 Enter 即可 
-
-Retype new password: 123  
-
-# 更新套件清單
-
-sudo apt update 
-
-# 安裝 zip / unzip 工具（SDKMAN 需要用到）
-
-sudo apt install zip unzip -y 
-
-# 安裝 SDKMAN
-
-curl -s "https://get.sdkman.io" | bash 
-
-# 載入 SDKMAN 環境變數
-
-source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-# 這個指令會列出目前安裝的 Linux 環境
-
-wsl --list --verbose
-
-# 啟動指定的 Linux 發行版
-
+# 3. 啟動 Ubuntu（進入 Linux 系統）
 wsl -d Ubuntu
 
-# 把 Ubuntu 設成預設
+# 4. 建立新帳號
+# 系統會提示輸入帳號名稱和密碼（密碼會隱藏）
+Create a default Unix user account: ibame
+New password: 123
+Retype new password: 123
 
+# 5. 更新套件清單
+sudo apt update
+
+# 6. 安裝 zip / unzip 工具（SDKMAN 需要用到）
+sudo apt install zip unzip -y
+
+# 7. 安裝 SDKMAN
+curl -s "https://get.sdkman.io" | bash
+
+# 8. 載入 SDKMAN 環境變數
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# 9. 檢查目前安裝的 Linux 環境
+wsl --list --verbose
+
+# 10. 啟動指定的 Linux 發行版
+wsl -d Ubuntu
+
+# 11. 把 Ubuntu 設成預設
 wsl --set-default Ubuntu
 
-# 安裝最新版本的 Java（可自選版本）
+# 12. 安裝最新版本的 Java（可自選版本）
+sdk install java
 
-sdk install java 
+# 13. 安裝 Spring Boot CLI
+sdk install springboot
 
-# 安裝 Spring Boot CLI
-
-sdk install springboot 
