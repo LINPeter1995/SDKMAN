@@ -46,7 +46,7 @@ wsl -d Ubuntu
 wsl --set-default Ubuntu
 
 # 13. 安裝最新版本的 Java（可自選版本）
-sdk install java
+sdk install java 21.0.0-tem
 
 # 14. 安裝 Spring Boot CLI
 sdk install springboot
