@@ -1,8 +1,10 @@
-✅ 各平台支援情況：
-作業系統	是否支援 SDKMAN!	備註說明
-Linux	✅ 完全支援	官方主要目標平台
-macOS	✅ 完全支援	一樣用 curl 安裝
-Windows	❌ 不直接支援	可透過 WSL 或 Git Bash 等間接使用
+# 各平台支援情況：
+
+# Linux	✅ 完全支援	官方主要目標平台
+
+# macOS	✅ 完全支援	一樣用 curl 安裝
+
+# Windows	❌ 不直接支援	可透過 WSL 或 Git Bash 等間接使用
 
 # 1. 安裝 WSL（Windows 子系統 Linux）
 wsl --install
