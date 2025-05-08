@@ -6,7 +6,7 @@
 
 # Windows	❌ 不直接支援	可透過 WSL 或 Git Bash 等間接使用
 
-# 1. 安裝 WSL（Windows 子系統 Linux）
+# 1. 安裝 WSL
 wsl --install
 
 # 2. 更新 WSL 到最新版本
@@ -18,8 +18,8 @@ wsl -d Ubuntu
 # 4. 建立新帳號
 # 系統會提示輸入帳號名稱和密碼（密碼會隱藏）
 Create a default Unix user account: ibame
-New password: 123
-Retype new password: 123
+New password: xxx
+Retype new password: xxx
 
 # 5. 更新套件清單
 sudo apt update
