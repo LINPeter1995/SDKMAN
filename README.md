@@ -6,7 +6,7 @@
 
 # Windows	❌ 不直接支援	可透過WSL或Git Bash間接使用
 
-# 1. 安裝 WSL
+# 1.安裝 WSL
 wsl --install
 
 # 2. 更新 WSL 到最新版本
