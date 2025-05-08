@@ -4,7 +4,7 @@
 
 # macOS	✅ 完全支援	一樣用 curl 安裝
 
-# Windows	❌ 不直接支援	可透過 WSL 或 Git Bash 等間接使用
+# Windows	❌ 不直接支援	可透過WSL或Git Bash間接使用
 
 # 1. 安裝 WSL
 wsl --install
