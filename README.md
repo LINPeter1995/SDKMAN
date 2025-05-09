@@ -1,8 +1,8 @@
 # 各平台支援情況：
 
-# Linux	✅ 完全支援	官方主要目標平台
+# Linux	✅ 完全支援
 
-# macOS	✅ 完全支援	一樣用 curl 安裝
+# macOS	✅ 完全支援
 
 # Windows	❌ 不直接支援可透過WSL
 
