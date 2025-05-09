@@ -1,10 +1,10 @@
 # 各平台支援情況：
 
-# Linux	✅ 完全支援
+# Linux 完全支援
 
-# macOS	✅ 完全支援
+# macOS 完全支援
 
-# Windows	❌ 不直接支援可透過WSL
+# Windows 不直接支援可透過WSL
 
 # 1.安裝 WSL
 wsl --install
