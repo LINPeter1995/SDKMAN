@@ -17,7 +17,7 @@ wsl -d Ubuntu
 
 # 4. 建立新帳號
 # 系統會提示輸入帳號名稱和密碼（密碼會隱藏）
-Create a default Unix user account: ibame
+Create a default Unix user account: xxx
 New password: xxx
 Retype new password: xxx
 
@@ -46,7 +46,7 @@ wsl -d Ubuntu
 wsl --set-default Ubuntu
 
 # 13. 安裝最新版本的 Java（可自選版本）
-sdk install java 21.0.0-tem
+sdk install java 21.0.7-tem
 
 # 14. 安裝 Spring Boot CLI
 sdk install springboot
